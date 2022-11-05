@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;*/
+
+:root {
+    --dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --font-destaque: 'Inter', sans-serif;
+    --font-paragraph: 'Lexend Deca', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+   
+    #container {
+        width: 820px;
+        height: 450px;
+    }
+
+    .color-image {
+        height: 100%;
+    }
+
+    .image {
+        background: url('../images/image-header-desktop.jpg') center center no-repeat;
+        background-size: cover;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    .text {
+        width: 50%;
+    }
+
+    .text h1 {
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    .text .paragraph {
+        margin-top: 50px;
+        text-align:left;
+    }
+
+    .extra {
+        display: inline-block;
+        position: relative;
+        left: 80px;
+        top: 50px;
+        padding: 25px;
+        padding-left: 0;
+    }
+}   
