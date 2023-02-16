@@ -37,7 +37,7 @@ main {
     overflow: hidden;
 
     transition: width .5s, height .5s;
-   transition-timing-function: ease;
+    transition-timing-function: ease;
 }
 
 .color-image {
@@ -49,8 +49,7 @@ main {
 
 .image {
     background: var(--soft-violet) url('../images/image-header-mobile.jpg') center center;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 
 .text {
