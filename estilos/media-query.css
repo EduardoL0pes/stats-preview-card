@@ -16,8 +16,8 @@ font-family: 'Lexend Deca', sans-serif;*/
 @media screen and (min-width: 768px) {
    
     #container {
-        width: 820px;
-        height: 450px;
+        width: 980px; /*820*/
+        height: 400px; /*450*/
     }
 
     .color-image {
@@ -34,24 +34,24 @@ font-family: 'Lexend Deca', sans-serif;*/
 
     .text {
         width: 50%;
+        margin-left: 50px;
+        text-align: left;
     }
 
     .text h1 {
         margin-top: 50px;
         text-align: left;
+        width: 315px;
     }
 
     .text .paragraph {
-        margin-top: 50px;
+        margin-top: 30px;
         text-align:left;
+        width: 360px;
     }
 
     .extra {
-        display: inline-block;
-        position: relative;
-        left: 80px;
-        top: 50px;
-        padding: 25px;
-        padding-left: 0;
+        display: flex;
+        justify-content: space-evenly;  
     }
 }   
