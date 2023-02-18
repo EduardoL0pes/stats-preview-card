@@ -76,6 +76,7 @@ main {
     text-align: center;
     font-family: var(--font-paragraph);
     padding: 0 12px;
+    line-height: 1.5;
     margin: 15px 0 25px 0;
     opacity: 50%;
 }
